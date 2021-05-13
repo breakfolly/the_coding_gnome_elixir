@@ -1,6 +1,8 @@
 {application,dictionary,
              [{applications,[kernel,stdlib,elixir,logger]},
               {description,"dictionary"},
-              {modules,['Elixir.Dictionary','Elixir.Lists']},
+              {modules,['Elixir.Dictionary','Elixir.Dictionary.Application',
+                        'Elixir.Dictionary.WordList','Elixir.Lists']},
               {registered,[]},
-              {vsn,"0.1.0"}]}.
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Dictionary.Application',[]}}]}.
